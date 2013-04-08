@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07F2289917013E7300A91D95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F2289817013E7300A91D95 /* UIKit.framework */; };
+		07F2289B17013E7300A91D95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F2289A17013E7300A91D95 /* Foundation.framework */; };
+		07F2289D17013E7300A91D95 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F2289C17013E7300A91D95 /* CoreGraphics.framework */; };
+		07F228A317013E7300A91D95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07F228A117013E7300A91D95 /* InfoPlist.strings */; };
+		07F228A517013E7300A91D95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F228A417013E7300A91D95 /* main.m */; };
+		07F228A917013E7300A91D95 /* JDGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F228A817013E7300A91D95 /* JDGAppDelegate.m */; };
+		07F228AB17013E7300A91D95 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F228AA17013E7300A91D95 /* Default.png */; };
+		07F228AD17013E7300A91D95 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F228AC17013E7300A91D95 /* Default@2x.png */; };
+		07F228AF17013E7300A91D95 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F228AE17013E7300A91D95 /* Default-568h@2x.png */; };
+		07F228B217013E7300A91D95 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F228B017013E7300A91D95 /* MainStoryboard.storyboard */; };
+		07F228B517013E7300A91D95 /* JDGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F228B417013E7300A91D95 /* JDGViewController.m */; };
+		07F228BD17013EAE00A91D95 /* Memento.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07F228BB17013EAE00A91D95 /* Memento.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07F2289517013E7300A91D95 /* Memento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memento.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F2289817013E7300A91D95 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07F2289A17013E7300A91D95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07F2289C17013E7300A91D95 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07F228A017013E7300A91D95 /* Memento-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Memento-Info.plist"; sourceTree = "<group>"; };
+		07F228A217013E7300A91D95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07F228A417013E7300A91D95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07F228A617013E7300A91D95 /* Memento-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Memento-Prefix.pch"; sourceTree = "<group>"; };
+		07F228A717013E7300A91D95 /* JDGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDGAppDelegate.h; sourceTree = "<group>"; };
+		07F228A817013E7300A91D95 /* JDGAppDelegate.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = JDGAppDelegate.m; sourceTree = "<group>"; };
+		07F228AA17013E7300A91D95 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		07F228AC17013E7300A91D95 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		07F228AE17013E7300A91D95 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		07F228B117013E7300A91D95 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		07F228B317013E7300A91D95 /* JDGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDGViewController.h; sourceTree = "<group>"; };
+		07F228B417013E7300A91D95 /* JDGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDGViewController.m; sourceTree = "<group>"; };
+		07F228BB17013EAE00A91D95 /* Memento.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Memento.cpp; sourceTree = "<group>"; };
+		07F228BC17013EAE00A91D95 /* Memento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Memento.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07F2289217013E7300A91D95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F2289917013E7300A91D95 /* UIKit.framework in Frameworks */,
+				07F2289B17013E7300A91D95 /* Foundation.framework in Frameworks */,
+				07F2289D17013E7300A91D95 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07F2288C17013E7300A91D95 = {
+			isa = PBXGroup;
+			children = (
+				07F2289E17013E7300A91D95 /* Memento */,
+				07F2289717013E7300A91D95 /* Frameworks */,
+				07F2289617013E7300A91D95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07F2289617013E7300A91D95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07F2289517013E7300A91D95 /* Memento.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07F2289717013E7300A91D95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07F2289817013E7300A91D95 /* UIKit.framework */,
+				07F2289A17013E7300A91D95 /* Foundation.framework */,
+				07F2289C17013E7300A91D95 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07F2289E17013E7300A91D95 /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+				07F228A717013E7300A91D95 /* JDGAppDelegate.h */,
+				07F228A817013E7300A91D95 /* JDGAppDelegate.m */,
+				07F228B017013E7300A91D95 /* MainStoryboard.storyboard */,
+				07F228B317013E7300A91D95 /* JDGViewController.h */,
+				07F228B417013E7300A91D95 /* JDGViewController.m */,
+				07F2289F17013E7300A91D95 /* Supporting Files */,
+				07F228BB17013EAE00A91D95 /* Memento.cpp */,
+				07F228BC17013EAE00A91D95 /* Memento.h */,
+			);
+			path = Memento;
+			sourceTree = "<group>";
+		};
+		07F2289F17013E7300A91D95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07F228A017013E7300A91D95 /* Memento-Info.plist */,
+				07F228A117013E7300A91D95 /* InfoPlist.strings */,
+				07F228A417013E7300A91D95 /* main.m */,
+				07F228A617013E7300A91D95 /* Memento-Prefix.pch */,
+				07F228AA17013E7300A91D95 /* Default.png */,
+				07F228AC17013E7300A91D95 /* Default@2x.png */,
+				07F228AE17013E7300A91D95 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07F2289417013E7300A91D95 /* Memento */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F228B817013E7300A91D95 /* Build configuration list for PBXNativeTarget "Memento" */;
+			buildPhases = (
+				07F2289117013E7300A91D95 /* Sources */,
+				07F2289217013E7300A91D95 /* Frameworks */,
+				07F2289317013E7300A91D95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Memento;
+			productName = Memento;
+			productReference = 07F2289517013E7300A91D95 /* Memento.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07F2288D17013E7300A91D95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JDG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = zdsoft;
+			};
+			buildConfigurationList = 07F2289017013E7300A91D95 /* Build configuration list for PBXProject "Memento" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07F2288C17013E7300A91D95;
+			productRefGroup = 07F2289617013E7300A91D95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07F2289417013E7300A91D95 /* Memento */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07F2289317013E7300A91D95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F228A317013E7300A91D95 /* InfoPlist.strings in Resources */,
+				07F228AB17013E7300A91D95 /* Default.png in Resources */,
+				07F228AD17013E7300A91D95 /* Default@2x.png in Resources */,
+				07F228AF17013E7300A91D95 /* Default-568h@2x.png in Resources */,
+				07F228B217013E7300A91D95 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07F2289117013E7300A91D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F228A517013E7300A91D95 /* main.m in Sources */,
+				07F228A917013E7300A91D95 /* JDGAppDelegate.m in Sources */,
+				07F228B517013E7300A91D95 /* JDGViewController.m in Sources */,
+				07F228BD17013EAE00A91D95 /* Memento.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07F228A117013E7300A91D95 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F228A217013E7300A91D95 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07F228B017013E7300A91D95 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F228B117013E7300A91D95 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07F228B617013E7300A91D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07F228B717013E7300A91D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07F228B917013E7300A91D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Memento/Memento-Prefix.pch";
+				INFOPLIST_FILE = "Memento/Memento-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07F228BA17013E7300A91D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Memento/Memento-Prefix.pch";
+				INFOPLIST_FILE = "Memento/Memento-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07F2289017013E7300A91D95 /* Build configuration list for PBXProject "Memento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F228B617013E7300A91D95 /* Debug */,
+				07F228B717013E7300A91D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07F228B817013E7300A91D95 /* Build configuration list for PBXNativeTarget "Memento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F228B917013E7300A91D95 /* Debug */,
+				07F228BA17013E7300A91D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07F2288D17013E7300A91D95 /* Project object */;
+}

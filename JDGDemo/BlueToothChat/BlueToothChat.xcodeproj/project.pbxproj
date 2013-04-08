@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07030142170920DF009C8911 /* JDGVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07030141170920DF009C8911 /* JDGVideoViewController.m */; };
+		07030145170920ED009C8911 /* JDGAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07030144170920ED009C8911 /* JDGAudioViewController.m */; };
+		070301471709243F009C8911 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070301461709243F009C8911 /* CoreMedia.framework */; };
+		0703014917092449009C8911 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0703014817092449009C8911 /* CoreVideo.framework */; };
+		0703014B17092450009C8911 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0703014A17092450009C8911 /* CoreAudio.framework */; };
+		0703014D17098559009C8911 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0703014C17098559009C8911 /* AudioToolbox.framework */; };
+		0703014F170985F9009C8911 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0703014E170985F9009C8911 /* OpenAL.framework */; };
+		0727ED65170C1281005C46D6 /* JDGAudioUnitPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0727ED64170C1281005C46D6 /* JDGAudioUnitPlayer.m */; };
+		07ED73971711213D00C6FE9D /* funkBeats.wav in Resources */ = {isa = PBXBuildFile; fileRef = 07ED73961711213D00C6FE9D /* funkBeats.wav */; };
+		07F243BE170288A5003F1434 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F243BD170288A5003F1434 /* UIKit.framework */; };
+		07F243C0170288A5003F1434 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F243BF170288A5003F1434 /* Foundation.framework */; };
+		07F243C2170288A5003F1434 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F243C1170288A5003F1434 /* CoreGraphics.framework */; };
+		07F243C8170288A5003F1434 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07F243C6170288A5003F1434 /* InfoPlist.strings */; };
+		07F243CA170288A5003F1434 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F243C9170288A5003F1434 /* main.m */; };
+		07F243CE170288A5003F1434 /* JDGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F243CD170288A5003F1434 /* JDGAppDelegate.m */; };
+		07F243D0170288A5003F1434 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F243CF170288A5003F1434 /* Default.png */; };
+		07F243D2170288A5003F1434 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F243D1170288A5003F1434 /* Default@2x.png */; };
+		07F243D4170288A5003F1434 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F243D3170288A5003F1434 /* Default-568h@2x.png */; };
+		07F243D7170288A5003F1434 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F243D5170288A5003F1434 /* MainStoryboard.storyboard */; };
+		07F243DA170288A5003F1434 /* JDGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F243D9170288A5003F1434 /* JDGViewController.m */; };
+		07F243E617028C1A003F1434 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F243E517028C19003F1434 /* GameKit.framework */; };
+		07F243E917028CD1003F1434 /* JDGChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F243E817028CD1003F1434 /* JDGChatViewController.m */; };
+		07F2444B1702CB59003F1434 /* JDGBlueToothKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F2444A1702CB59003F1434 /* JDGBlueToothKit.m */; };
+		07F2444E1702E161003F1434 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F2444D1702E161003F1434 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07030140170920DF009C8911 /* JDGVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDGVideoViewController.h; sourceTree = "<group>"; };
+		07030141170920DF009C8911 /* JDGVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDGVideoViewController.m; sourceTree = "<group>"; };
+		07030143170920ED009C8911 /* JDGAudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDGAudioViewController.h; sourceTree = "<group>"; };
+		07030144170920ED009C8911 /* JDGAudioViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = JDGAudioViewController.m; sourceTree = "<group>"; };
+		070301461709243F009C8911 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0703014817092449009C8911 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		0703014A17092450009C8911 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		0703014C17098559009C8911 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0703014E170985F9009C8911 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		0727ED63170C1281005C46D6 /* JDGAudioUnitPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDGAudioUnitPlayer.h; sourceTree = "<group>"; };
+		0727ED64170C1281005C46D6 /* JDGAudioUnitPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDGAudioUnitPlayer.m; sourceTree = "<group>"; };
+		07ED73961711213D00C6FE9D /* funkBeats.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = funkBeats.wav; sourceTree = "<group>"; };
+		07F243BA170288A5003F1434 /* BlueToothChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueToothChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F243BD170288A5003F1434 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07F243BF170288A5003F1434 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07F243C1170288A5003F1434 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07F243C5170288A5003F1434 /* BlueToothChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlueToothChat-Info.plist"; sourceTree = "<group>"; };
+		07F243C7170288A5003F1434 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07F243C9170288A5003F1434 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07F243CB170288A5003F1434 /* BlueToothChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlueToothChat-Prefix.pch"; sourceTree = "<group>"; };
+		07F243CC170288A5003F1434 /* JDGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDGAppDelegate.h; sourceTree = "<group>"; };
+		07F243CD170288A5003F1434 /* JDGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDGAppDelegate.m; sourceTree = "<group>"; };
+		07F243CF170288A5003F1434 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		07F243D1170288A5003F1434 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		07F243D3170288A5003F1434 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		07F243D6170288A5003F1434 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		07F243D8170288A5003F1434 /* JDGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDGViewController.h; sourceTree = "<group>"; };
+		07F243D9170288A5003F1434 /* JDGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDGViewController.m; sourceTree = "<group>"; };
+		07F243E517028C19003F1434 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		07F243E717028CD1003F1434 /* JDGChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDGChatViewController.h; sourceTree = "<group>"; };
+		07F243E817028CD1003F1434 /* JDGChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDGChatViewController.m; sourceTree = "<group>"; };
+		07F244491702CB59003F1434 /* JDGBlueToothKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDGBlueToothKit.h; sourceTree = "<group>"; };
+		07F2444A1702CB59003F1434 /* JDGBlueToothKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDGBlueToothKit.m; sourceTree = "<group>"; };
+		07F2444D1702E161003F1434 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07F243B7170288A5003F1434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0703014F170985F9009C8911 /* OpenAL.framework in Frameworks */,
+				0703014D17098559009C8911 /* AudioToolbox.framework in Frameworks */,
+				0703014B17092450009C8911 /* CoreAudio.framework in Frameworks */,
+				0703014917092449009C8911 /* CoreVideo.framework in Frameworks */,
+				070301471709243F009C8911 /* CoreMedia.framework in Frameworks */,
+				07F2444E1702E161003F1434 /* AVFoundation.framework in Frameworks */,
+				07F243E617028C1A003F1434 /* GameKit.framework in Frameworks */,
+				07F243BE170288A5003F1434 /* UIKit.framework in Frameworks */,
+				07F243C0170288A5003F1434 /* Foundation.framework in Frameworks */,
+				07F243C2170288A5003F1434 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07F243B1170288A5003F1434 = {
+			isa = PBXGroup;
+			children = (
+				07F243C3170288A5003F1434 /* BlueToothChat */,
+				07F243BC170288A5003F1434 /* Frameworks */,
+				07F243BB170288A5003F1434 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07F243BB170288A5003F1434 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07F243BA170288A5003F1434 /* BlueToothChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07F243BC170288A5003F1434 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0703014C17098559009C8911 /* AudioToolbox.framework */,
+				07F243BD170288A5003F1434 /* UIKit.framework */,
+				07F2444D1702E161003F1434 /* AVFoundation.framework */,
+				0703014A17092450009C8911 /* CoreAudio.framework */,
+				0703014817092449009C8911 /* CoreVideo.framework */,
+				070301461709243F009C8911 /* CoreMedia.framework */,
+				0703014E170985F9009C8911 /* OpenAL.framework */,
+				07F243BF170288A5003F1434 /* Foundation.framework */,
+				07F243E517028C19003F1434 /* GameKit.framework */,
+				07F243C1170288A5003F1434 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07F243C3170288A5003F1434 /* BlueToothChat */ = {
+			isa = PBXGroup;
+			children = (
+				07ED73961711213D00C6FE9D /* funkBeats.wav */,
+				07F243CC170288A5003F1434 /* JDGAppDelegate.h */,
+				07F243CD170288A5003F1434 /* JDGAppDelegate.m */,
+				07F243D5170288A5003F1434 /* MainStoryboard.storyboard */,
+				07F244491702CB59003F1434 /* JDGBlueToothKit.h */,
+				07F2444A1702CB59003F1434 /* JDGBlueToothKit.m */,
+				07F243D8170288A5003F1434 /* JDGViewController.h */,
+				07F243D9170288A5003F1434 /* JDGViewController.m */,
+				07F243E717028CD1003F1434 /* JDGChatViewController.h */,
+				07F243E817028CD1003F1434 /* JDGChatViewController.m */,
+				07030140170920DF009C8911 /* JDGVideoViewController.h */,
+				07030141170920DF009C8911 /* JDGVideoViewController.m */,
+				07030143170920ED009C8911 /* JDGAudioViewController.h */,
+				07030144170920ED009C8911 /* JDGAudioViewController.m */,
+				0727ED63170C1281005C46D6 /* JDGAudioUnitPlayer.h */,
+				0727ED64170C1281005C46D6 /* JDGAudioUnitPlayer.m */,
+				07F243C4170288A5003F1434 /* Supporting Files */,
+			);
+			path = BlueToothChat;
+			sourceTree = "<group>";
+		};
+		07F243C4170288A5003F1434 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07F243C5170288A5003F1434 /* BlueToothChat-Info.plist */,
+				07F243C6170288A5003F1434 /* InfoPlist.strings */,
+				07F243C9170288A5003F1434 /* main.m */,
+				07F243CB170288A5003F1434 /* BlueToothChat-Prefix.pch */,
+				07F243CF170288A5003F1434 /* Default.png */,
+				07F243D1170288A5003F1434 /* Default@2x.png */,
+				07F243D3170288A5003F1434 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07F243B9170288A5003F1434 /* BlueToothChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F243DD170288A5003F1434 /* Build configuration list for PBXNativeTarget "BlueToothChat" */;
+			buildPhases = (
+				07F243B6170288A5003F1434 /* Sources */,
+				07F243B7170288A5003F1434 /* Frameworks */,
+				07F243B8170288A5003F1434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueToothChat;
+			productName = BlueToothChat;
+			productReference = 07F243BA170288A5003F1434 /* BlueToothChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07F243B2170288A5003F1434 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JDG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = zdsoft;
+			};
+			buildConfigurationList = 07F243B5170288A5003F1434 /* Build configuration list for PBXProject "BlueToothChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07F243B1170288A5003F1434;
+			productRefGroup = 07F243BB170288A5003F1434 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07F243B9170288A5003F1434 /* BlueToothChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07F243B8170288A5003F1434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F243C8170288A5003F1434 /* InfoPlist.strings in Resources */,
+				07F243D0170288A5003F1434 /* Default.png in Resources */,
+				07F243D2170288A5003F1434 /* Default@2x.png in Resources */,
+				07F243D4170288A5003F1434 /* Default-568h@2x.png in Resources */,
+				07F243D7170288A5003F1434 /* MainStoryboard.storyboard in Resources */,
+				07ED73971711213D00C6FE9D /* funkBeats.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07F243B6170288A5003F1434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F243CA170288A5003F1434 /* main.m in Sources */,
+				07F243CE170288A5003F1434 /* JDGAppDelegate.m in Sources */,
+				07F243DA170288A5003F1434 /* JDGViewController.m in Sources */,
+				07F243E917028CD1003F1434 /* JDGChatViewController.m in Sources */,
+				07F2444B1702CB59003F1434 /* JDGBlueToothKit.m in Sources */,
+				07030142170920DF009C8911 /* JDGVideoViewController.m in Sources */,
+				07030145170920ED009C8911 /* JDGAudioViewController.m in Sources */,
+				0727ED65170C1281005C46D6 /* JDGAudioUnitPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07F243C6170288A5003F1434 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F243C7170288A5003F1434 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07F243D5170288A5003F1434 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F243D6170288A5003F1434 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07F243DB170288A5003F1434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07F243DC170288A5003F1434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07F243DE170288A5003F1434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlueToothChat/BlueToothChat-Prefix.pch";
+				INFOPLIST_FILE = "BlueToothChat/BlueToothChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07F243DF170288A5003F1434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlueToothChat/BlueToothChat-Prefix.pch";
+				INFOPLIST_FILE = "BlueToothChat/BlueToothChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07F243B5170288A5003F1434 /* Build configuration list for PBXProject "BlueToothChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F243DB170288A5003F1434 /* Debug */,
+				07F243DC170288A5003F1434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07F243DD170288A5003F1434 /* Build configuration list for PBXNativeTarget "BlueToothChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F243DE170288A5003F1434 /* Debug */,
+				07F243DF170288A5003F1434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07F243B2170288A5003F1434 /* Project object */;
+}

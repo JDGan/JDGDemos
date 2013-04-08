@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:DemoCenter/DemoCenter.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "&#35774;&#35745;&#27169;&#24335;">
+      <Group
+         location = "container:"
+         name = "&#21019;&#24314;&#22411;&#27169;&#24335;">
+         <FileRef
+            location = "group:Factory/Factory.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:AbstactFactory/AbstactFactory.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Singleton/Singleton.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Builder/Builder.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Prototype/Prototype.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:"
+         name = "&#32467;&#26500;&#22411;&#27169;&#24335;">
+         <FileRef
+            location = "group:Bridge/Bridge.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Adapter/Adapter.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Decorator/Decorator.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Composite/Composite.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Flyweight/Flyweight.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Facade/Facade.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Proxy/Proxy.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:"
+         name = "&#34892;&#20026;&#27169;&#24335;">
+         <FileRef
+            location = "group:Template/Template.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Strategy/Strategy.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:State/State.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Observer/Observer.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Memento/Memento.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Mediator/Mediator.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Command/Command.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Visitor/Visitor.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:ChainOfResponsibility/ChainOfResponsibility.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Iterator/Iterator.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Interpreter/Interpreter.xcodeproj">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "container:"
+      name = "&#32842;&#22825;&#36890;&#20449;">
+      <FileRef
+         location = "group:BlueToothChat/BlueToothChat.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:VoiceRecognition/VoiceRecognition.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Xmpp/Xmpp.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>

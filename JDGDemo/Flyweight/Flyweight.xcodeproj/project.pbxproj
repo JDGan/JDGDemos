@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0722E7941700415D00A95C43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0722E7931700415D00A95C43 /* UIKit.framework */; };
+		0722E7961700415D00A95C43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0722E7951700415D00A95C43 /* Foundation.framework */; };
+		0722E7981700415D00A95C43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0722E7971700415D00A95C43 /* CoreGraphics.framework */; };
+		0722E79E1700415D00A95C43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0722E79C1700415D00A95C43 /* InfoPlist.strings */; };
+		0722E7A01700415D00A95C43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0722E79F1700415D00A95C43 /* main.m */; };
+		0722E7A41700415D00A95C43 /* JDGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0722E7A31700415D00A95C43 /* JDGAppDelegate.m */; };
+		0722E7A61700415D00A95C43 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0722E7A51700415D00A95C43 /* Default.png */; };
+		0722E7A81700415D00A95C43 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0722E7A71700415D00A95C43 /* Default@2x.png */; };
+		0722E7AA1700415D00A95C43 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0722E7A91700415D00A95C43 /* Default-568h@2x.png */; };
+		0722E7AD1700415D00A95C43 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0722E7AB1700415D00A95C43 /* MainStoryboard.storyboard */; };
+		0722E7B01700415D00A95C43 /* JDGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0722E7AF1700415D00A95C43 /* JDGViewController.m */; };
+		0722E7B81700419D00A95C43 /* Flyweight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0722E7B61700419D00A95C43 /* Flyweight.cpp */; };
+		0722E7BB170041BD00A95C43 /* FlyweightFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0722E7B9170041BD00A95C43 /* FlyweightFactory.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0722E7901700415D00A95C43 /* Flyweight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flyweight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0722E7931700415D00A95C43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0722E7951700415D00A95C43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0722E7971700415D00A95C43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0722E79B1700415D00A95C43 /* Flyweight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flyweight-Info.plist"; sourceTree = "<group>"; };
+		0722E79D1700415D00A95C43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0722E79F1700415D00A95C43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0722E7A11700415D00A95C43 /* Flyweight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flyweight-Prefix.pch"; sourceTree = "<group>"; };
+		0722E7A21700415D00A95C43 /* JDGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDGAppDelegate.h; sourceTree = "<group>"; };
+		0722E7A31700415D00A95C43 /* JDGAppDelegate.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = JDGAppDelegate.m; sourceTree = "<group>"; };
+		0722E7A51700415D00A95C43 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0722E7A71700415D00A95C43 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0722E7A91700415D00A95C43 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0722E7AC1700415D00A95C43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0722E7AE1700415D00A95C43 /* JDGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDGViewController.h; sourceTree = "<group>"; };
+		0722E7AF1700415D00A95C43 /* JDGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDGViewController.m; sourceTree = "<group>"; };
+		0722E7B61700419D00A95C43 /* Flyweight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Flyweight.cpp; sourceTree = "<group>"; };
+		0722E7B71700419D00A95C43 /* Flyweight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flyweight.h; sourceTree = "<group>"; };
+		0722E7B9170041BD00A95C43 /* FlyweightFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FlyweightFactory.cpp; sourceTree = "<group>"; };
+		0722E7BA170041BD00A95C43 /* FlyweightFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyweightFactory.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0722E78D1700415D00A95C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0722E7941700415D00A95C43 /* UIKit.framework in Frameworks */,
+				0722E7961700415D00A95C43 /* Foundation.framework in Frameworks */,
+				0722E7981700415D00A95C43 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0722E7871700415D00A95C43 = {
+			isa = PBXGroup;
+			children = (
+				0722E7991700415D00A95C43 /* Flyweight */,
+				0722E7921700415D00A95C43 /* Frameworks */,
+				0722E7911700415D00A95C43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0722E7911700415D00A95C43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0722E7901700415D00A95C43 /* Flyweight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0722E7921700415D00A95C43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0722E7931700415D00A95C43 /* UIKit.framework */,
+				0722E7951700415D00A95C43 /* Foundation.framework */,
+				0722E7971700415D00A95C43 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0722E7991700415D00A95C43 /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				0722E7A21700415D00A95C43 /* JDGAppDelegate.h */,
+				0722E7A31700415D00A95C43 /* JDGAppDelegate.m */,
+				0722E7AB1700415D00A95C43 /* MainStoryboard.storyboard */,
+				0722E7AE1700415D00A95C43 /* JDGViewController.h */,
+				0722E7AF1700415D00A95C43 /* JDGViewController.m */,
+				0722E79A1700415D00A95C43 /* Supporting Files */,
+				0722E7B61700419D00A95C43 /* Flyweight.cpp */,
+				0722E7B71700419D00A95C43 /* Flyweight.h */,
+				0722E7B9170041BD00A95C43 /* FlyweightFactory.cpp */,
+				0722E7BA170041BD00A95C43 /* FlyweightFactory.h */,
+			);
+			path = Flyweight;
+			sourceTree = "<group>";
+		};
+		0722E79A1700415D00A95C43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0722E79B1700415D00A95C43 /* Flyweight-Info.plist */,
+				0722E79C1700415D00A95C43 /* InfoPlist.strings */,
+				0722E79F1700415D00A95C43 /* main.m */,
+				0722E7A11700415D00A95C43 /* Flyweight-Prefix.pch */,
+				0722E7A51700415D00A95C43 /* Default.png */,
+				0722E7A71700415D00A95C43 /* Default@2x.png */,
+				0722E7A91700415D00A95C43 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0722E78F1700415D00A95C43 /* Flyweight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0722E7B31700415D00A95C43 /* Build configuration list for PBXNativeTarget "Flyweight" */;
+			buildPhases = (
+				0722E78C1700415D00A95C43 /* Sources */,
+				0722E78D1700415D00A95C43 /* Frameworks */,
+				0722E78E1700415D00A95C43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flyweight;
+			productName = Flyweight;
+			productReference = 0722E7901700415D00A95C43 /* Flyweight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0722E7881700415D00A95C43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JDG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = zdsoft;
+			};
+			buildConfigurationList = 0722E78B1700415D00A95C43 /* Build configuration list for PBXProject "Flyweight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0722E7871700415D00A95C43;
+			productRefGroup = 0722E7911700415D00A95C43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0722E78F1700415D00A95C43 /* Flyweight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0722E78E1700415D00A95C43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0722E79E1700415D00A95C43 /* InfoPlist.strings in Resources */,
+				0722E7A61700415D00A95C43 /* Default.png in Resources */,
+				0722E7A81700415D00A95C43 /* Default@2x.png in Resources */,
+				0722E7AA1700415D00A95C43 /* Default-568h@2x.png in Resources */,
+				0722E7AD1700415D00A95C43 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0722E78C1700415D00A95C43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0722E7A01700415D00A95C43 /* main.m in Sources */,
+				0722E7A41700415D00A95C43 /* JDGAppDelegate.m in Sources */,
+				0722E7B01700415D00A95C43 /* JDGViewController.m in Sources */,
+				0722E7B81700419D00A95C43 /* Flyweight.cpp in Sources */,
+				0722E7BB170041BD00A95C43 /* FlyweightFactory.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0722E79C1700415D00A95C43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0722E79D1700415D00A95C43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0722E7AB1700415D00A95C43 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0722E7AC1700415D00A95C43 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0722E7B11700415D00A95C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0722E7B21700415D00A95C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0722E7B41700415D00A95C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flyweight/Flyweight-Prefix.pch";
+				INFOPLIST_FILE = "Flyweight/Flyweight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0722E7B51700415D00A95C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flyweight/Flyweight-Prefix.pch";
+				INFOPLIST_FILE = "Flyweight/Flyweight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0722E78B1700415D00A95C43 /* Build configuration list for PBXProject "Flyweight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0722E7B11700415D00A95C43 /* Debug */,
+				0722E7B21700415D00A95C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0722E7B31700415D00A95C43 /* Build configuration list for PBXNativeTarget "Flyweight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0722E7B41700415D00A95C43 /* Debug */,
+				0722E7B51700415D00A95C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0722E7881700415D00A95C43 /* Project object */;
+}

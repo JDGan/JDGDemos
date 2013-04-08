@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07F228CB1701411D00A91D95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F228CA1701411D00A91D95 /* UIKit.framework */; };
+		07F228CD1701411D00A91D95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F228CC1701411D00A91D95 /* Foundation.framework */; };
+		07F228CF1701411D00A91D95 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F228CE1701411D00A91D95 /* CoreGraphics.framework */; };
+		07F228D51701411D00A91D95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07F228D31701411D00A91D95 /* InfoPlist.strings */; };
+		07F228D71701411D00A91D95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F228D61701411D00A91D95 /* main.m */; };
+		07F228DB1701411D00A91D95 /* JDGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F228DA1701411D00A91D95 /* JDGAppDelegate.m */; };
+		07F228DD1701411D00A91D95 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F228DC1701411D00A91D95 /* Default.png */; };
+		07F228DF1701411D00A91D95 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F228DE1701411D00A91D95 /* Default@2x.png */; };
+		07F228E11701411D00A91D95 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F228E01701411D00A91D95 /* Default-568h@2x.png */; };
+		07F228E41701411D00A91D95 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F228E21701411D00A91D95 /* MainStoryboard.storyboard */; };
+		07F228E71701411D00A91D95 /* JDGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F228E61701411D00A91D95 /* JDGViewController.m */; };
+		07F228EF170141BE00A91D95 /* Mediator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07F228ED170141BE00A91D95 /* Mediator.cpp */; };
+		07F228F2170141DD00A91D95 /* Colleage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07F228F0170141DD00A91D95 /* Colleage.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07F228C71701411D00A91D95 /* Mediator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mediator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F228CA1701411D00A91D95 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07F228CC1701411D00A91D95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07F228CE1701411D00A91D95 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07F228D21701411D00A91D95 /* Mediator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mediator-Info.plist"; sourceTree = "<group>"; };
+		07F228D41701411D00A91D95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07F228D61701411D00A91D95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07F228D81701411D00A91D95 /* Mediator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mediator-Prefix.pch"; sourceTree = "<group>"; };
+		07F228D91701411D00A91D95 /* JDGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDGAppDelegate.h; sourceTree = "<group>"; };
+		07F228DA1701411D00A91D95 /* JDGAppDelegate.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = JDGAppDelegate.m; sourceTree = "<group>"; };
+		07F228DC1701411D00A91D95 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		07F228DE1701411D00A91D95 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		07F228E01701411D00A91D95 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		07F228E31701411D00A91D95 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		07F228E51701411D00A91D95 /* JDGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDGViewController.h; sourceTree = "<group>"; };
+		07F228E61701411D00A91D95 /* JDGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDGViewController.m; sourceTree = "<group>"; };
+		07F228ED170141BE00A91D95 /* Mediator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mediator.cpp; sourceTree = "<group>"; };
+		07F228EE170141BE00A91D95 /* Mediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mediator.h; sourceTree = "<group>"; };
+		07F228F0170141DD00A91D95 /* Colleage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Colleage.cpp; sourceTree = "<group>"; };
+		07F228F1170141DD00A91D95 /* Colleage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colleage.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07F228C41701411D00A91D95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F228CB1701411D00A91D95 /* UIKit.framework in Frameworks */,
+				07F228CD1701411D00A91D95 /* Foundation.framework in Frameworks */,
+				07F228CF1701411D00A91D95 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07F228BE1701411C00A91D95 = {
+			isa = PBXGroup;
+			children = (
+				07F228D01701411D00A91D95 /* Mediator */,
+				07F228C91701411D00A91D95 /* Frameworks */,
+				07F228C81701411D00A91D95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07F228C81701411D00A91D95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07F228C71701411D00A91D95 /* Mediator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07F228C91701411D00A91D95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07F228CA1701411D00A91D95 /* UIKit.framework */,
+				07F228CC1701411D00A91D95 /* Foundation.framework */,
+				07F228CE1701411D00A91D95 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07F228D01701411D00A91D95 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				07F228D91701411D00A91D95 /* JDGAppDelegate.h */,
+				07F228DA1701411D00A91D95 /* JDGAppDelegate.m */,
+				07F228E21701411D00A91D95 /* MainStoryboard.storyboard */,
+				07F228E51701411D00A91D95 /* JDGViewController.h */,
+				07F228E61701411D00A91D95 /* JDGViewController.m */,
+				07F228D11701411D00A91D95 /* Supporting Files */,
+				07F228ED170141BE00A91D95 /* Mediator.cpp */,
+				07F228EE170141BE00A91D95 /* Mediator.h */,
+				07F228F0170141DD00A91D95 /* Colleage.cpp */,
+				07F228F1170141DD00A91D95 /* Colleage.h */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		07F228D11701411D00A91D95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07F228D21701411D00A91D95 /* Mediator-Info.plist */,
+				07F228D31701411D00A91D95 /* InfoPlist.strings */,
+				07F228D61701411D00A91D95 /* main.m */,
+				07F228D81701411D00A91D95 /* Mediator-Prefix.pch */,
+				07F228DC1701411D00A91D95 /* Default.png */,
+				07F228DE1701411D00A91D95 /* Default@2x.png */,
+				07F228E01701411D00A91D95 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07F228C61701411D00A91D95 /* Mediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F228EA1701411D00A91D95 /* Build configuration list for PBXNativeTarget "Mediator" */;
+			buildPhases = (
+				07F228C31701411D00A91D95 /* Sources */,
+				07F228C41701411D00A91D95 /* Frameworks */,
+				07F228C51701411D00A91D95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mediator;
+			productName = Mediator;
+			productReference = 07F228C71701411D00A91D95 /* Mediator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07F228BF1701411C00A91D95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JDG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = zdsoft;
+			};
+			buildConfigurationList = 07F228C21701411C00A91D95 /* Build configuration list for PBXProject "Mediator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07F228BE1701411C00A91D95;
+			productRefGroup = 07F228C81701411D00A91D95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07F228C61701411D00A91D95 /* Mediator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07F228C51701411D00A91D95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F228D51701411D00A91D95 /* InfoPlist.strings in Resources */,
+				07F228DD1701411D00A91D95 /* Default.png in Resources */,
+				07F228DF1701411D00A91D95 /* Default@2x.png in Resources */,
+				07F228E11701411D00A91D95 /* Default-568h@2x.png in Resources */,
+				07F228E41701411D00A91D95 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07F228C31701411D00A91D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F228D71701411D00A91D95 /* main.m in Sources */,
+				07F228DB1701411D00A91D95 /* JDGAppDelegate.m in Sources */,
+				07F228E71701411D00A91D95 /* JDGViewController.m in Sources */,
+				07F228EF170141BE00A91D95 /* Mediator.cpp in Sources */,
+				07F228F2170141DD00A91D95 /* Colleage.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07F228D31701411D00A91D95 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F228D41701411D00A91D95 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07F228E21701411D00A91D95 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F228E31701411D00A91D95 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07F228E81701411D00A91D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07F228E91701411D00A91D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07F228EB1701411D00A91D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mediator/Mediator-Prefix.pch";
+				INFOPLIST_FILE = "Mediator/Mediator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07F228EC1701411D00A91D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mediator/Mediator-Prefix.pch";
+				INFOPLIST_FILE = "Mediator/Mediator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07F228C21701411C00A91D95 /* Build configuration list for PBXProject "Mediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F228E81701411D00A91D95 /* Debug */,
+				07F228E91701411D00A91D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07F228EA1701411D00A91D95 /* Build configuration list for PBXNativeTarget "Mediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F228EB1701411D00A91D95 /* Debug */,
+				07F228EC1701411D00A91D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07F228BF1701411C00A91D95 /* Project object */;
+}

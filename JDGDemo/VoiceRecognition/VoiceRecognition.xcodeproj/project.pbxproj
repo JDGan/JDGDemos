@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07ED73A517113F7300C6FE9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07ED73A417113F7300C6FE9D /* UIKit.framework */; };
+		07ED73A717113F7300C6FE9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07ED73A617113F7300C6FE9D /* Foundation.framework */; };
+		07ED73A917113F7300C6FE9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07ED73A817113F7300C6FE9D /* CoreGraphics.framework */; };
+		07ED73AF17113F7300C6FE9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07ED73AD17113F7300C6FE9D /* InfoPlist.strings */; };
+		07ED73B117113F7300C6FE9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ED73B017113F7300C6FE9D /* main.m */; };
+		07ED73B517113F7300C6FE9D /* JDGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ED73B417113F7300C6FE9D /* JDGAppDelegate.m */; };
+		07ED73B717113F7300C6FE9D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 07ED73B617113F7300C6FE9D /* Default.png */; };
+		07ED73B917113F7300C6FE9D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07ED73B817113F7300C6FE9D /* Default@2x.png */; };
+		07ED73BB17113F7300C6FE9D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07ED73BA17113F7300C6FE9D /* Default-568h@2x.png */; };
+		07ED73BE17113F7300C6FE9D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07ED73BC17113F7300C6FE9D /* MainStoryboard.storyboard */; };
+		07ED73C117113F7300C6FE9D /* JDGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ED73C017113F7300C6FE9D /* JDGViewController.m */; };
+		07ED73C81711403E00C6FE9D /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07ED73C71711403E00C6FE9D /* iflyMSC.framework */; };
+		07ED73CA1711406A00C6FE9D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07ED73C91711406A00C6FE9D /* SystemConfiguration.framework */; };
+		07ED73CC1711407100C6FE9D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07ED73CB1711407100C6FE9D /* QuartzCore.framework */; };
+		07ED73CE1711407800C6FE9D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07ED73CD1711407800C6FE9D /* CFNetwork.framework */; };
+		07ED73D01711407E00C6FE9D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07ED73CF1711407E00C6FE9D /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07ED73A117113F7300C6FE9D /* VoiceRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07ED73A417113F7300C6FE9D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07ED73A617113F7300C6FE9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07ED73A817113F7300C6FE9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07ED73AC17113F7300C6FE9D /* VoiceRecognition-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VoiceRecognition-Info.plist"; sourceTree = "<group>"; };
+		07ED73AE17113F7300C6FE9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07ED73B017113F7300C6FE9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07ED73B217113F7300C6FE9D /* VoiceRecognition-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VoiceRecognition-Prefix.pch"; sourceTree = "<group>"; };
+		07ED73B317113F7300C6FE9D /* JDGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDGAppDelegate.h; sourceTree = "<group>"; };
+		07ED73B417113F7300C6FE9D /* JDGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDGAppDelegate.m; sourceTree = "<group>"; };
+		07ED73B617113F7300C6FE9D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		07ED73B817113F7300C6FE9D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		07ED73BA17113F7300C6FE9D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		07ED73BD17113F7300C6FE9D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		07ED73BF17113F7300C6FE9D /* JDGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDGViewController.h; sourceTree = "<group>"; };
+		07ED73C017113F7300C6FE9D /* JDGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDGViewController.m; sourceTree = "<group>"; };
+		07ED73C71711403E00C6FE9D /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		07ED73C91711406A00C6FE9D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		07ED73CB1711407100C6FE9D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		07ED73CD1711407800C6FE9D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		07ED73CF1711407E00C6FE9D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07ED739E17113F7300C6FE9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07ED73D01711407E00C6FE9D /* AudioToolbox.framework in Frameworks */,
+				07ED73CE1711407800C6FE9D /* CFNetwork.framework in Frameworks */,
+				07ED73CC1711407100C6FE9D /* QuartzCore.framework in Frameworks */,
+				07ED73CA1711406A00C6FE9D /* SystemConfiguration.framework in Frameworks */,
+				07ED73A517113F7300C6FE9D /* UIKit.framework in Frameworks */,
+				07ED73A717113F7300C6FE9D /* Foundation.framework in Frameworks */,
+				07ED73A917113F7300C6FE9D /* CoreGraphics.framework in Frameworks */,
+				07ED73C81711403E00C6FE9D /* iflyMSC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07ED739817113F7300C6FE9D = {
+			isa = PBXGroup;
+			children = (
+				07ED73AA17113F7300C6FE9D /* VoiceRecognition */,
+				07ED73A317113F7300C6FE9D /* Frameworks */,
+				07ED73A217113F7300C6FE9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07ED73A217113F7300C6FE9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07ED73A117113F7300C6FE9D /* VoiceRecognition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07ED73A317113F7300C6FE9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07ED73CF1711407E00C6FE9D /* AudioToolbox.framework */,
+				07ED73CD1711407800C6FE9D /* CFNetwork.framework */,
+				07ED73CB1711407100C6FE9D /* QuartzCore.framework */,
+				07ED73C91711406A00C6FE9D /* SystemConfiguration.framework */,
+				07ED73C71711403E00C6FE9D /* iflyMSC.framework */,
+				07ED73A417113F7300C6FE9D /* UIKit.framework */,
+				07ED73A617113F7300C6FE9D /* Foundation.framework */,
+				07ED73A817113F7300C6FE9D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07ED73AA17113F7300C6FE9D /* VoiceRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				07ED73B317113F7300C6FE9D /* JDGAppDelegate.h */,
+				07ED73B417113F7300C6FE9D /* JDGAppDelegate.m */,
+				07ED73BC17113F7300C6FE9D /* MainStoryboard.storyboard */,
+				07ED73BF17113F7300C6FE9D /* JDGViewController.h */,
+				07ED73C017113F7300C6FE9D /* JDGViewController.m */,
+				07ED73AB17113F7300C6FE9D /* Supporting Files */,
+			);
+			path = VoiceRecognition;
+			sourceTree = "<group>";
+		};
+		07ED73AB17113F7300C6FE9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07ED73AC17113F7300C6FE9D /* VoiceRecognition-Info.plist */,
+				07ED73AD17113F7300C6FE9D /* InfoPlist.strings */,
+				07ED73B017113F7300C6FE9D /* main.m */,
+				07ED73B217113F7300C6FE9D /* VoiceRecognition-Prefix.pch */,
+				07ED73B617113F7300C6FE9D /* Default.png */,
+				07ED73B817113F7300C6FE9D /* Default@2x.png */,
+				07ED73BA17113F7300C6FE9D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07ED73A017113F7300C6FE9D /* VoiceRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07ED73C417113F7300C6FE9D /* Build configuration list for PBXNativeTarget "VoiceRecognition" */;
+			buildPhases = (
+				07ED739D17113F7300C6FE9D /* Sources */,
+				07ED739E17113F7300C6FE9D /* Frameworks */,
+				07ED739F17113F7300C6FE9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceRecognition;
+			productName = VoiceRecognition;
+			productReference = 07ED73A117113F7300C6FE9D /* VoiceRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07ED739917113F7300C6FE9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JDG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = zdsoft;
+			};
+			buildConfigurationList = 07ED739C17113F7300C6FE9D /* Build configuration list for PBXProject "VoiceRecognition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07ED739817113F7300C6FE9D;
+			productRefGroup = 07ED73A217113F7300C6FE9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07ED73A017113F7300C6FE9D /* VoiceRecognition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07ED739F17113F7300C6FE9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07ED73AF17113F7300C6FE9D /* InfoPlist.strings in Resources */,
+				07ED73B717113F7300C6FE9D /* Default.png in Resources */,
+				07ED73B917113F7300C6FE9D /* Default@2x.png in Resources */,
+				07ED73BB17113F7300C6FE9D /* Default-568h@2x.png in Resources */,
+				07ED73BE17113F7300C6FE9D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07ED739D17113F7300C6FE9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07ED73B117113F7300C6FE9D /* main.m in Sources */,
+				07ED73B517113F7300C6FE9D /* JDGAppDelegate.m in Sources */,
+				07ED73C117113F7300C6FE9D /* JDGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07ED73AD17113F7300C6FE9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07ED73AE17113F7300C6FE9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07ED73BC17113F7300C6FE9D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07ED73BD17113F7300C6FE9D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07ED73C217113F7300C6FE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07ED73C317113F7300C6FE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07ED73C517113F7300C6FE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceRecognition/VoiceRecognition-Prefix.pch";
+				INFOPLIST_FILE = "VoiceRecognition/VoiceRecognition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07ED73C617113F7300C6FE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceRecognition/VoiceRecognition-Prefix.pch";
+				INFOPLIST_FILE = "VoiceRecognition/VoiceRecognition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07ED739C17113F7300C6FE9D /* Build configuration list for PBXProject "VoiceRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07ED73C217113F7300C6FE9D /* Debug */,
+				07ED73C317113F7300C6FE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07ED73C417113F7300C6FE9D /* Build configuration list for PBXNativeTarget "VoiceRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07ED73C517113F7300C6FE9D /* Debug */,
+				07ED73C617113F7300C6FE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07ED739917113F7300C6FE9D /* Project object */;
+}
